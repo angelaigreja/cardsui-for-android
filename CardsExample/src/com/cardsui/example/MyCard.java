@@ -19,6 +19,7 @@ public class MyCard extends Card {
 
 		((TextView) view.findViewById(R.id.title)).setText(title);
 
+		((TextView) view.findViewById(R.id.description)).setText(desc);
 		
 		return view;
 	}

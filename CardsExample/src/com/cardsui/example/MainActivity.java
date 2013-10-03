@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 
 		// init CardView
 		mCardView = (CardUI) findViewById(R.id.cardsview);
-		mCardView.setSwipeable(false);
+		mCardView.setSwipeable(true);
 
 		// add AndroidViews Cards
 		mCardView.addCard(new MyCard("Get the CardsUI view"));
